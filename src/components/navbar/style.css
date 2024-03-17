@@ -1,0 +1,52 @@
+
+nav {
+    background: transparent;
+    height: 60px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    transition: background-color 0.3s;
+    padding-top: 20px; /* Add some space on the top */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Spacing between menu items */
+}
+
+nav li {
+    padding: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Color of the text */
+    font-size: 16px; /* Size of the text */
+    font-weight: 500; /* Font weight */
+    transition: color 0.3s, transform 0.3s; /* Add transform to the transition for animation */
+}
+
+
+nav a:hover {
+    color: #782fa8; 
+    transform: translateY(-3px); /* Moves the link up by 3px */
+}
+
+/* Optional: animation for the link to settle back to its place */
+nav a:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

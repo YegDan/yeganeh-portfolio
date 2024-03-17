@@ -1,33 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//import { useState } from 'react'
 
+import './App.css'
+import { Home } from './components/home/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/navbar/Navbar'
+import AboutMe from './components/about/About'
+import Projects from './components/projects/Projects'
+import SwiftScheduler from './components/projects/works/SwiftScheduler'
+import MealMate from './components/projects/works/MealMate'
+import NetOnlineShop from './components/projects/works/NetOnlineShop'
+import SpringSocial from './components/projects/works/SpringSocial'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Projects />} />
+        <Route path="/swiftScheduler" element={<SwiftScheduler />} />
+        <Route path="/mealMate" element={<MealMate />} />
+        <Route path="/netOnlineShop" element={<NetOnlineShop />} />
+        <Route path="/springSocial" element={<SpringSocial />} />
+        {/* <Route path="/portfolio" element={<Portfolio />} />
+        
+        <Route path="/credentials" element={<Credentials />} />
+        <Route path="/experience" element={<Experience />} /> */}
+      </Routes>
+    </Router>
+      
     </>
   )
 }
