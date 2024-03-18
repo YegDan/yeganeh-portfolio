@@ -8,5 +8,5 @@ export default defineConfig({
     outDir: 'build',
   },
   
-  base: "/yeganeh-portfolio/"
+  // base: "/yeganeh-portfolio/"
 })
