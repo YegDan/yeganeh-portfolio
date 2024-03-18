@@ -1,11 +1,11 @@
-//import React from 'react'
-
 import Item from "./Item";
 import "./style.css";
 import mealMateImg from '../../assets/react-native.png';
 import springBoot from '../../assets/spring-boot.png';
 import aspDotNet from '../../assets/asp-mvc.jpg';
 import mern from '../../assets/Mern.png';
+import aws from '../../assets/aws.png';
+
 export default function Projects() {
     const projects = [
         {
@@ -32,6 +32,12 @@ export default function Projects() {
           description: "A MERN stack web app for dance academy scheduling, enabling organized sessions for students, staff, and management.",
           imgSrc: mern,
           path: "/swiftScheduler" 
+        },
+        {
+          title: "Upcoming!",
+          description: "An innovative employee directory web app, architectured with AWS services including S3, EC2, and DynamoDB for robust, scalable network infrastructure.",
+          imgSrc: aws,
+          path: "" 
         }
         
       ];

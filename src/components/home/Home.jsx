@@ -7,9 +7,13 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   const myName = "Yeganeh Daneshparvar";
-  const myProfession = ["I am a software developer", "I develop web apps", "I am passionate about making cloud solutions", "I am a AWS certified developer"];
+  const myProfession = [
+    "I'm an AWS Cloud Practitioner and Full Stack Developer.",
+    "I thrive on problem-solving and continuous learning in cloud technologies.",
+    "Explore my work demonstrating practical, scalable web and mobile solutions."
+  ];
   const myDescription = "“He who conquers himself is the mightiest warrior.” - Confucius ";
-  //const myImgUrl = "public/port-img.jpg"; // Replace with the path to your image
+
   const backgroundStyle = {
     backgroundImage: `url(${myImgUrl})`,
     backgroundSize: 'cover',

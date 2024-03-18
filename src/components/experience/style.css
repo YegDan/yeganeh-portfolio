@@ -1,0 +1,58 @@
+.experience-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ddd;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .experience-entry {
+    background-color: #222;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-left: 4px solid #444;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .experience-entry:hover {
+    border-left-color: #777;
+  }
+  
+  .experience-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .experience-date {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .experience-details {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience-details li {
+    background-color: #444;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .experience-details li:hover {
+    background-color: #555;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .experience-entry:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+  }
+  

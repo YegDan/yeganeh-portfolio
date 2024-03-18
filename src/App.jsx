@@ -1,4 +1,4 @@
-//import { useState } from 'react'
+
 
 import './App.css'
 import { Home } from './components/home/Home'
@@ -10,6 +10,8 @@ import SwiftScheduler from './components/projects/works/SwiftScheduler'
 import MealMate from './components/projects/works/MealMate'
 import NetOnlineShop from './components/projects/works/NetOnlineShop'
 import SpringSocial from './components/projects/works/SpringSocial'
+import Academic from './components/academic/Academic'
+import Experience from './components/experience/Experience'
 function App() {
   
 
@@ -26,10 +28,9 @@ function App() {
         <Route path="/mealMate" element={<MealMate />} />
         <Route path="/netOnlineShop" element={<NetOnlineShop />} />
         <Route path="/springSocial" element={<SpringSocial />} />
-        {/* <Route path="/portfolio" element={<Portfolio />} />
-        
-        <Route path="/credentials" element={<Credentials />} />
-        <Route path="/experience" element={<Experience />} /> */}
+        <Route path="/credentials" element={<Academic />} />
+        <Route path="/experience" element={<Experience />} />
+
       </Routes>
     </Router>
       

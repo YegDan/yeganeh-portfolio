@@ -52,7 +52,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px; /* Added padding */
+  padding: 10px; 
 }
 
 .project-item:hover .project-content {
@@ -79,17 +79,16 @@
 }
 
 .project-content h3 {
-  margin: 0; /* Remove default margin */
-  font-size: 1.2rem; /* Adjust font size to fit in the circle */
+  margin: 0; 
+  font-size: 1.2rem; 
 }
 
 .project-content p {
-  font-size: 0.8rem; /* Adjust font size to fit in the circle */
-  margin: 0.5rem 0; /* Adjust spacing between lines */
+  font-size: 0.8rem;
+  margin: 0.5rem 0; 
 }
 
-/* Define your color variables somewhere in your CSS or in a :root selector */
 :root {
-  --primary-color: #fff; /* Example color */
-  --secondary-color: #000; /* Example color */
+  --primary-color: #fff; 
+  --secondary-color: #000; 
 }

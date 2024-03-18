@@ -1,0 +1,42 @@
+.project-container {
+    color: #f0f0f0;
+    background: #333; 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px; 
+  }
+  
+  .project-title {
+    color: white; 
+    margin-bottom: 1rem;
+  }
+  
+  .project-duration,
+  .project-institution {
+    color: white; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-details {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-details li {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .project-container {
+      padding: 15px;
+    }
+  
+    .project-title {
+      font-size: 1.75rem; 
+    }
+  }
+  

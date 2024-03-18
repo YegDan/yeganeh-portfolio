@@ -1,13 +1,13 @@
 
 .about-me {
   color: white;
-  background-color: #0c0c0c; /* You might adjust this to match your site's theme */
-  font-family: 'Raleway', sans-serif; /* Use whatever font you like */
-  padding-left: 40px; /* Add left padding to align text to the left */
+  background-color: #0c0c0c;
+  font-family: 'Raleway', sans-serif; 
+  padding-left: 40px; 
 }
 
 .about-me h1, .about-me h2 {
-  text-align: left; /* Align text to the left */
+  text-align: left; 
 }
 
 .about-me h1 {
@@ -19,16 +19,16 @@
 }
 
 .about-me p, .about-me blockquote {
-  font-size: 1em; /* Adjust as needed */
-  line-height: 1.6; /* Adjust for readability */
-  max-width: 800px; /* Keeps lines from being too wide */
-  margin: 0; /* Remove auto margin to align to the left */
+  font-size: 1em; 
+  line-height: 1.6;
+  max-width: 800px; 
+  margin: 0; 
 }
 
 .about-me a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid white; /* Underlines the link */
+  border-bottom: 1px solid white;
 }
 
 .about-me blockquote {
