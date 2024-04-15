@@ -9,7 +9,9 @@
 .about-me h1, .about-me h2 {
   text-align: left; 
 }
-
+.bio ul{
+  color: white;
+}
 .about-me h1 {
   margin-bottom: 0.5em;
 }
