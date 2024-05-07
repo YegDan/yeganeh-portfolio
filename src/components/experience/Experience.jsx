@@ -5,7 +5,7 @@ export default function Experience() {
     <div className="experience-container">
         <div className="experience-entry">
             <h2 className="experience-title">George Brown College Student Association - SafeWalker</h2>
-            <p className="experience-date">Jan 2023 - Jan 2024</p>
+            <p className="experience-date">Jan 2023 - Sept 2023</p>
             <ul className="experience-details">
             <li>Reception desk duties during evening shifts</li>
             <li>Handling student queries and providing campus directions</li>
