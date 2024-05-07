@@ -9,15 +9,20 @@ export const AboutMe = () => {
         <h2>Get to Know Me</h2>
         <p>Hello there! I&apos;m Yeganeh, but you can call me Venus if you like. Fresh out of George Brown College in the heart of Toronto, I&apos;m a new grad with a zest for coding over morning coffee, exploring new places, and cracking complex problems. As a Full Stack Developer with a penchant for backend magic, I&apos;ve recently ventured into the clouds—AWS clouds, to be precise. There, I&apos;m sharpening my skills and knowledge, ready to architect solutions that soar.</p>
       </section>
+      <br></br>
+      <section className="bio">
+        <h2>Connect with me on LinkedIn</h2>
+        <p><a href="https://www.linkedin.com/in/yeganeh-daneshparvar-2b1922192/" target="_blank" rel="noopener noreferrer">My LinkedIn Profile</a></p>
+      </section>
     
     <br></br>
       <section className="bio">
         <h2>My Technical Skills:</h2>
         <ul >
-          <li>Cloud Computing: AWS (S3, EC2, EKS, ECS, IAM, Lambda, DynamoDB, Data Lakes), VPS</li>
+        <li>Cloud Computing: AWS (S3, EC2, EKS, ECS, IAM, Lambda, DynamoDB, Data Lakes, SES, SNS, CloudWatch, EventBridge, RDS), VPS</li>
           <li>Languages: Java, Python, JavaScript, C#, Swift</li>
           <li>Frameworks & Libraries: React.js, React Native, Express.js, .NET, Spring Boot, SwiftUI, Keras</li>
-          <li>Tools & Platforms: Git, GitHub, Docker, Postman</li>
+          <li>Tools & Platforms: Git, GitHub, Docker, Postman, Terraform</li>
           <li>Protocols & APIs: TCP/IP, HTTP, RESTful APIs, GraphQL APIs</li>
           <li>Concepts: Data Structures, Algorithms, Agile Methodologies, Machine Learning (models, neurons, activation functions, loss functions, optimizers)</li>
         </ul>
@@ -25,7 +30,7 @@ export const AboutMe = () => {
 
       
 
-      <section className="cover-letter">
+      {/* <section className="cover-letter">
         <h2>Cover Letter</h2>
         <p>Dear Hiring Manager,</p>
         <br></br>
@@ -40,7 +45,7 @@ export const AboutMe = () => {
 
         <p>Yeganeh Daneshparvar</p>
 
-      </section>
+      </section> */}
 
       
     </div>

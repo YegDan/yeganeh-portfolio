@@ -5,6 +5,8 @@ import springBoot from '../../assets/spring-boot.png';
 import aspDotNet from '../../assets/asp-mvc.jpg';
 import mern from '../../assets/Mern.png';
 import aws from '../../assets/aws.png';
+import aws2 from '../../assets/Aws-padok.png';
+import aws3 from '../../assets/aws3.jpg';
 
 export default function Projects() {
     const projects = [
@@ -38,6 +40,18 @@ export default function Projects() {
           description: "An innovative employee directory web app, architectured with AWS services including S3, EC2, and DynamoDB for robust, scalable network infrastructure.",
           imgSrc: aws,
           path: "" 
+        },
+        {
+          title: "Text2Speech",
+          description: "Experience cloud-native text-to-voice conversion with AWS Polly. Transform text inputs into lifelike voices for a personalized user experience.",
+          imgSrc: aws2,
+          path: "/text2speech" 
+        },
+        {
+          title: "Email Service",
+          description: "Discover my event-driven email delivery project with AWS, automating dispatch upon CSV uploads to S3 using SNS, Lambda, DynamoDB, and SES for reliable scalability.",
+          imgSrc: aws3,
+          path: "/emailService" 
         }
         
       ];

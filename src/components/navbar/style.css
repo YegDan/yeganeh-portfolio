@@ -1,4 +1,66 @@
+nav {
+    background: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    transition: background-color 0.3s;
+    padding-top: 20px; 
+}
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    padding: 5px 10px;
+    white-space: nowrap; /* Prevent items from wrapping */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #782fa8; 
+    transform: translateY(-3px);
+}
+
+nav a:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: row; /* Ensure items are in a row */
+        justify-content: center; /* Center items horizontally */
+        gap: 10px; /* Reduce the gap between items */
+        overflow-x: auto; /* Enable horizontal scrolling if needed */
+    }
+
+    nav li {
+        flex: 0 0 auto; /* Reset flex-grow and flex-shrink */
+        width: auto; /* Reset width */
+    }
+
+    nav a {
+        font-size: 14px; /* Decrease font size */
+    }
+}
+
+/* 
 nav {
     background: transparent;
     height: 60px;
@@ -49,4 +111,4 @@ nav a:active {
         flex-direction: column;
         gap: 10px;
     }
-}
+} */

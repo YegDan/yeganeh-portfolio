@@ -12,6 +12,8 @@ import NetOnlineShop from './components/projects/works/NetOnlineShop'
 import SpringSocial from './components/projects/works/SpringSocial'
 import Academic from './components/academic/Academic'
 import Experience from './components/experience/Experience'
+import TextToSpeech from './components/projects/works/TextToSpeech'
+import EmailService from './components/projects/works/EmailService'
 function App() {
   
 
@@ -30,6 +32,8 @@ function App() {
         <Route path="/springSocial" element={<SpringSocial />} />
         <Route path="/credentials" element={<Academic />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/text2speech" element={<TextToSpeech />} />
+        <Route path="/emailService" element={<EmailService />} />
 
       </Routes>
     </Router>

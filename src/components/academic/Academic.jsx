@@ -4,34 +4,40 @@ import digital from '../../assets/digital-information.pdf'
 import java from '../../assets/java.pdf'
 import internet from '../../assets/principles-internet.pdf'
 import cloud from '../../assets/public-cloud.pdf'
+import aws from '../../assets/Coursera aws1.pdf'
 import './style.css'
 export default function Academic() {
 
         const certificates = [
                 {
+                    title: "AWS Cloud Technical Essentials",
+                    src: aws, 
+                    id: 'certificate-1' 
+                },
+                {
                     title: "A Beginner's Guide to Public Cloud Platforms",
                     src: cloud, 
-                    id: 'certificate-1' 
+                    id: 'certificate-2' 
                 },
                 {
                     title: "Computer Science Principles: Digital Information",
                     src: digital,
-                    id: 'certificate-2' 
+                    id: 'certificate-3' 
                 },
                 {
                     title: "Computer Science Principles: The Internet",
                     src: internet,
-                    id: 'certificate-3'
+                    id: 'certificate-4'
                 },
                 {
                     title: "Java Object-Oriented Programming",
                     src: java,
-                    id: 'certificate-4'
+                    id: 'certificate-5'
                 },
                 {
                     title: "Learning Cloud Computing: Core Concepts",
                     src: cloudCore,
-                    id: 'certificate-5' 
+                    id: 'certificate-6' 
                 },
 
                 

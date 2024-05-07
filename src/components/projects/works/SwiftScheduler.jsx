@@ -1,39 +1,59 @@
 
 import './swiftScheduler.css'
-import calendar from '../../../assets/Calendar.png'
-import profile from '../../../assets/Profile.png'
-import home from '../../../assets/Home.png'
-import swifts1 from '../../../assets/swiftS1.png'
-import swifts2 from '../../../assets/swiftS2.png'
-import swifts3 from '../../../assets/swiftS3.png'
+// import calendar from '../../../assets/Calendar.png'
+// import profile from '../../../assets/Profile.png'
+// import home from '../../../assets/Home.png'
+// import swifts1 from '../../../assets/swiftS1.png'
+// import swifts2 from '../../../assets/swiftS2.png'
+// import swifts3 from '../../../assets/swiftS3.png'
 export default function SwiftScheduler() {
   return (
     <div className="swift-scheduler">
-      <h2 className="swift-scheduler-title">SwiftScheduler</h2>
-      <section className="project-section">
-        <h3>Project Summary</h3>
-        <p>SwiftScheduler is a web-based dance academy scheduling application. It streamlines the administrative tasks of scheduling for students, instructors, and administrators, optimizing the management of classes and resources within the academy.</p>
-      </section>
+      <h2 className="swift-scheduler-title">SwiftScheduler: Dance Academy Scheduling Web App</h2>
+      <p>September 2023 - April 2024</p>
+      <p>George Brown College</p>
 
-      <section className="project-section">
-        <h3>Project Vision</h3>
-        <p>The vision of SwiftScheduler is to become the central solution for scheduling challenges within dance academies. It aims to facilitate efficient class bookings, instructor shift coordination, and a user-friendly registration process that serves the needs of the entire dance community.</p>
+      
+        
+      <h4>SwiftScheduler was a capstone project undertaken at George Brown College during the academic year. It involved agile sprint planning and development over two semesters. The project aimed to streamline scheduling processes for a hypothetical dance academy, catering to administrators, teachers, and students.</h4>
        
-      </section>
+      
 
       <section className="project-section">
-        <h3>Project Requirements</h3>
-        <p>The application will provide:</p>
+        <h3>Project Description</h3>
+        <p>SwiftScheduler is a MERN (MongoDB, Express.js, React.js, Node.js) stack scheduling web application. The backend consists of a monolithic server built with Express.js and MongoDB, while the frontend is a React.js client styled with Tailwind CSS. The frontend and backend are deployed separately to ensure scalability and maintainability.</p>
+        <h3>Accomplishments and Challenges</h3>
+        <h4>Accomplishments</h4>
          <ul>
-          <li>Providing a user-friendly registration system on a first-come, first serve basis</li>
-          <li>Collecting user feedback on classes, instructors to improve overall performance</li>
-          <li>Attendance tracking features</li>
-          <li>Studio space reservations/class enrollment</li>
-          <li>Calendar integration for real-time scheduling updates.</li>
+          <li>I demonstrated a strong work ethic and took a leadership role in frontend development.</li>
+          <li>I provided mentorship to our UI/UX designer, collaborating closely to align design choices with client requirements.</li>
+          <li>Despite being primarily focused on frontend development, I volunteered to contribute to server-side tasks when necessary.</li>
+          <li>With limited prior experience in React.js, I quickly grasped its concepts and took charge of the frontend architecture. I emphasized code reusability, effectively utilizing React's reusable components and context API to manage the application's state.</li>
+          <li>I proactively learned Tailwind CSS to enhance the UI/UX of the application, ensuring a visually appealing and user-friendly interface.</li>
+        </ul>
+
+        <h4>Challenges</h4>
+         <ul>
+          <li>Adapting to a new technology stack and coordinating with team members who were also learning new skills required dedication and effective communication.</li>
+          <li>Balancing frontend and potential backend responsibilities demanded careful time management and flexibility.</li>
+          <li>Ensuring consistency in code quality and design standards across the project required continuous collaboration and feedback loops within the team.</li>
+          {/* <li>With limited prior experience in React.js, I quickly grasped its concepts and took charge of the frontend architecture. I emphasized code reusability, effectively utilizing React's reusable components and context API to manage the application's state.</li>
+          <li>I proactively learned Tailwind CSS to enhance the UI/UX of the application, ensuring a visually appealing and user-friendly interface.</li> */}
         </ul>
       </section>
-
       <section className="project-section">
+
+    <h3>GitHub Repository</h3>
+    <p><a href="https://github.com/e41c/Swift-Scheduler-Web-APP-MERN-STACK-.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+    </section>
+
+  
+    <section className="project-section">
+      <h3>Visit SwiftScheduler</h3>
+      <p><a href="https://github.com/e41c/Swift-Scheduler-Web-APP-MERN-STACK-.git" target="_blank" rel="noopener noreferrer">SwiftScheduler</a></p>
+    </section>
+
+      {/* <section className="project-section">
         <h3>Project Plan</h3>
         <p>This project has started in September 2023 and is planned to conclude by April 2024. It follows a structured agile approach for development, with periodic reviews, team meetings, and sprints to ensure alignment with the project goals .</p>
       </section>
@@ -76,7 +96,7 @@ export default function SwiftScheduler() {
         <img src={swifts2} alt="Wireframe-profile-page" className="projectImage" />
         <img src={swifts3} alt="Wireframe-home-page" className="projectImage" />
         
-      </section>
+      </section> */}
 
 
       
