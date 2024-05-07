@@ -19,7 +19,7 @@ export const AboutMe = () => {
       <section className="bio">
         <h2>My Technical Skills:</h2>
         <ul >
-        <li>Cloud Computing: AWS (S3, EC2, EKS, ECS, IAM, Lambda, DynamoDB, Data Lakes, SES, SNS, CloudWatch, EventBridge, RDS), VPS</li>
+        <li>Cloud Computing: AWS (S3, EC2, EKS, ECS, IAM, Lambda, DynamoDB, Data Lakes, SES, SNS, CloudWatch, EventBridge, RDS), VPC</li>
           <li>Languages: Java, Python, JavaScript, C#, Swift</li>
           <li>Frameworks & Libraries: React.js, React Native, Express.js, .NET, Spring Boot, SwiftUI, Keras</li>
           <li>Tools & Platforms: Git, GitHub, Docker, Postman, Terraform</li>
